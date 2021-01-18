@@ -5,6 +5,7 @@ const { RNAppmetricaPushSdk } = NativeModules;
 
 export default {
     init(token) {
+
         if(Platform.OS === 'android') {
             RNAppmetricaPushSdk.init();
         } else {

@@ -5,11 +5,10 @@
 //
 
 #import "React/RCTBridgeModule.h"
-#import "React/RCTEventEmitter.h"
+//#import "React/RCTEventEmitter.h"
 
 @interface RCT_EXTERN_MODULE(RNAppmetricaPushSdk, NSObject)
-RCT_EXTERN_METHOD(init: (NSString *))
-
+RCT_EXTERN_METHOD(initPush: (NSData *)deviceToken)
 @end
 
 
