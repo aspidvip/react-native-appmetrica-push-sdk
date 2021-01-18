@@ -1,18 +1,34 @@
 
 {
   "name": "react-native-appmetrica-push-sdk",
+  "title": "Yandex AppMetrica Push SDK React Native Plugin",
   "version": "1.0.0",
-  "description": "",
+  "description": "Push SDK from AppMetrica",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspidvip/react-native-appmetrica-push-sdk.git"
+  },
   "keywords": [
-    "react-native"
+    "yandex",
+    "push SDK",
+    "appmetrica",
+    "metrica",
+    "analytics",
+    "tracking",
+    "react-native",
+    "ecosystem:react-native",
+    "react-native-ios",
+    "react-native-android"
   ],
-  "author": "",
-  "license": "",
+  "author": "Andrey Bondarenko",
+  "license": "MIT",
   "peerDependencies": {
-    "react-native": "*"
+    "react-native": ">=0.60.0 <1.0.x"
+  },
+  "devDependencies": {
   }
 }
