@@ -1,13 +1,15 @@
+//
+//  RNAppmetricaPushSdk.m
+//  Andrey Bondarenko
+//  Copyright © 2021 Facebook. All rights reserved.
+//
 
-#import "RNAppmetricaPushSdk.h"
+#import "React/RCTBridgeModule.h"
+#import "React/RCTEventEmitter.h"
 
-@implementation RNAppmetricaPushSdk
-
-- (dispatch_queue_t)methodQueue
-{
-    return dispatch_get_main_queue();
-}
-RCT_EXPORT_MODULE()
+@interface RCT_EXTERN_MODULE(RNAppmetricaPushSdk, NSObject)
+RCT_EXTERN_METHOD(init: (NSString *))
 
 @end
-  
+
+
