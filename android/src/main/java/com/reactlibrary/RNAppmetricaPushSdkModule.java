@@ -23,7 +23,7 @@ public class RNAppmetricaPushSdkModule extends ReactContextBaseJavaModule {
   }
 
   @ReactMethod
-  public void init(ReadableMap configMap) {
+  public void init() {
     YandexMetricaPush.init(reactContext);
   }
 }
