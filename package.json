@@ -2,7 +2,7 @@
 {
   "name": "react-native-appmetrica-push-sdk",
   "title": "Yandex AppMetrica Push SDK React Native Plugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Push SDK from AppMetrica",
   "homepage": "https://github.com/aspidvip/react-native-appmetrica-push-sdk.git",
   "main": "index.js",
