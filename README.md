@@ -23,7 +23,7 @@ const InitAppMetrica = () => {
     firstActivationAsUpdate: true,
     });
 
-    NAppmetricaPushSdk.init();
+    RNAppmetricaPushSdk.init();
 }
 
 ### example for iOS
