@@ -4,12 +4,12 @@ import { NativeModules, Platform } from 'react-native';
 const { RNAppmetricaPushSdk } = NativeModules;
 
 export default {
-    init(token) {
+    init(token = '') {
 
         if(Platform.OS === 'android') {
             RNAppmetricaPushSdk.init();
         } else {
-            RNAppmetricaPushSdk.init(token);
+            RNAppmetricaPushSdk.initPush(token);
         }
     },
 }
